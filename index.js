@@ -1,5 +1,6 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
-let randomNumber = Math.floor(Math.random() * 2 + 1);
+let randomNumber = Math.floor(Math.random() * 6 + 1);
 console.log("Welcome to the Game");
 let answer = await inquirer.prompt([{
         name: "guess",
